@@ -1,0 +1,9 @@
+torch==1.7.0
+pytorch-lightning==1.5.8
+torchvision==0.8.0
+termcolor==1.1.0
+matplotlib
+pycocotools==2.0.4
+coremltools==6.0
+opencv-python
+numpy
