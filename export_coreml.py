@@ -25,6 +25,7 @@ def main(config, in_model_path, output_model_path, input_shape=(320, 320)):
     model = build_model(config.model)
     checkpoint = torch.load(in_model_path, map_location=lambda storage, loc: storage)
     load_model_weight(model, checkpoint, logger)
+    model.eval()
 
     dummy_input = torch.autograd.Variable(
         torch.randn(1, 3, input_shape[0], input_shape[1])
