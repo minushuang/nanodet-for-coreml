@@ -1,5 +1,6 @@
 # nanodet-for-coreml
-this is a project about how to convert nanodet pytorch model to coreml and inference with it.<p> most code of this project are reference from https://github.com/RangiLyu/nanodet
+this is a project about how to convert nanodet pytorch model to coreml and inference with it.<p> 
+most code of this project are referenced from https://github.com/RangiLyu/nanodet
 ## requirements
 to run this model, you need to install the pkgs in requierments.txt <p>
 ## how to run
