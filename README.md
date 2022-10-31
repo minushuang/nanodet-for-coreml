@@ -14,7 +14,7 @@ coremltools==6.0
 opencv-python
 numpy
 ```
-## how to run
+## how to use
 run `export_coreml.py` to convert the pytorch model to coreml. <p>
 run `demo_pytorch.py` to predict bboxes from images with pytorch model. <p>
 run `demo_coreml.py` to predict bboxes from images with coreml model. <p>
